@@ -1,0 +1,89 @@
+.logo {
+    background: left / cover url('media/shapka-sayta-tehnologii.jpg');
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font:
+      bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
+      fantasy;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+  }
+  
+  header > h1 {
+    margin-bottom: 0;
+  }
+  
+  header > time {
+    font: italic 0.7rem sans-serif;
+  }
+
+
+.navigation{
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:5px; /*делаем отступ сверху*/
+    background:#160a50; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+    height: 50px; /*задаем высоту*/
+  }  
+ 
+.navigation   a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 30px;
+    background-color: #160a50;
+    font: small-caps 1.7rem italic;
+}
+.navigation a li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+  }
+ 
+.navigation a:hover {
+    background:#D43737;/*добавляем эффект при наведении*/
+  }
+
+
+.image {
+    float: right;
+    border:4px solid #1b6b6f; 
+    padding:15px;
+    margin-top:5px; /*делаем отступ сверху*/}
+
+
+.box {
+  background-color: rebeccapurple;
+  border:4px solid #1b6b6f;
+  border-radius: 10px;
+  width: 1150px;
+  height: 495px;
+  margin-top:5px; /*делаем отступ сверху*/
+}
+.box p {
+    text-align: center;
+    border: 160px solid #160a50;
+    font: small-caps 1.7rem italic;
+    padding: 25px;
+}
+
+.box:hover {
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+ 
+  
+  
+  
