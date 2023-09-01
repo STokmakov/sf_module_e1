@@ -70,8 +70,8 @@
 
 .box:hover {
   animation-name: rotate;
-  animation-duration: 4s;
-  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-iteration-count: 10;
 }
 
 @keyframes rotate {
